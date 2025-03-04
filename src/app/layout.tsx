@@ -1,4 +1,4 @@
-import { CMS_NAME, HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { cn } from "@/lib/utils";
@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: `Next.js Blog Example with ${CMS_NAME}`,
-  description: `A statically generated blog example using Next.js and ${CMS_NAME}.`,
+  title: `Tianyou Lan's Blog`,
+  description: `This is a blog site about thoughts by Tianyou Lan`,
   openGraph: {
     images: [HOME_OG_IMAGE_URL],
   },

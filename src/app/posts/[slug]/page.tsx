@@ -22,7 +22,7 @@ export default async function Post(props: Params) {
     <main>
       <Container>
         <Header />
-        <article className="mb-32">
+        <article className="mb-32 prose lg:prose-xl">
           <PostHeader
             title={post.title}
             coverImage={post.coverImage}
